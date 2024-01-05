@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend> Personal Details</legend>
+            <labal for="Firstname">Firstname</labal>
+            <input type="text" id="Firstname"name="Firstname" required> <br>
+           <br>
+           <labal for="Middlename">Middlename</labal>
+           <input type="text" id="Middlename"name="Middlename" required> <br>
+          <br>
+          
+          <labal for="course">Course:</labal>
+          <select id="course" name="course">
+            <option value="None">course</option>
+            <option value="BBA">BBA</option>
+            <option value="BCA">BCA</option>
+            <option value="B.tech">B.tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.tech">M.tech</option>
+          </select>
+          <br>
+          <br>
+          <labal for="gender">Gender:</labal><br>
+          
+          <input type="radio" name="gender" id="gender"
+           value="Male"> 
+          
+           <labal for="gender">Male</labal><br>
+           <input type="radio" name="gender" id="gender"
+           value="Female">
+           <labal for="gender">Female</labal> <br>
+          <input type="radio" name="gender" id="gender"
+          value="other">
+          <labal for="gender">Other</labal><br>
+          <br>
+          <labal for="time">DateTime local</labal>
+          <input type="datetime-local" id="time"><br>
+          <labal for="phone-no">Phone No:</labal>
+          <input type="tel" value="+91" disabled style="width: 30px;">
+          <input type="tel" id="phone-no">
+          <br>
+          <br>
+          <labal for="address">Address</labal><br>
+          
+          <textarea name="address" id="address" cols="30" row="5"></textarea>
+          <br>
+          <br>
+          <br>
+          <labal for="e-mail">E-mail</labal>
+          <input type="email" id="email" name="E-mail"><br>
+          <br>
+          <br>
+          <labal for="pass">Password</labal>
+          <input type="password" id="pass" name="Pasword">
+          <br>
+         <br>
+         <labal for="pass">Re-type password</labal>
+         <input type="password" id="pass" name="Password">
+         <br>
+         <br>
+         <input type="checkbox" id="terms" name="T-C" value="applied">
+         <labal for="terms">Apply term & Condition</labal> <br>
+         <br>
+         <labal for="choose file">Chosse File</labal>
+         <input type="file" name="file"> <br>
+         
+         <labal for="backgroud">Choose colour</labal>
+         <input type="color" id="background">
+         <br> 
+         <input type="reset" value="Reset">
+
+         <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
